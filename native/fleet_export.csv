@@ -1,0 +1,121 @@
+id,family,version,driver,app,backup,agent,disk,telemetry,latency_ratio,error_rate,vendor_hold,compliant,expected
+vm-001,Windows Server,2025,fail,fail,pass,pass,pass,1,1.022759,0.009500,0,1,compliant
+vm-002,Ubuntu,24.04,unknown,unknown,pass,unknown,pass,1,1.039591,0.004200,0,0,insufficient_evidence
+vm-003,macOS,15,fail,pass,pass,pass,pass,1,0.999211,0.006800,0,0,blocked
+vm-004,Windows Server,2019,pass,pass,pass,pass,pass,1,0.930452,0.008700,0,0,ready
+vm-005,Ubuntu,24.04,pass,pass,pass,pass,pass,1,1.131819,0.005000,0,0,ready
+vm-006,Amazon Linux,2023,pass,pass,pass,pass,pass,1,1.110591,0.006300,0,0,ready
+vm-007,macOS,14,pass,pass,pass,pass,pass,1,2.190979,0.047100,0,1,compliant
+vm-008,Amazon Linux,2023,pass,pass,unknown,pass,pass,1,1.134058,0.009600,0,0,insufficient_evidence
+vm-009,Amazon Linux,2023,pass,pass,pass,fail,pass,1,1.070852,0.006000,0,0,ready_with_caution
+vm-010,Windows Server,2025,pass,pass,pass,pass,pass,1,2.190420,0.072800,0,0,blocked
+vm-011,Windows Server,2025,fail,pass,pass,pass,pass,1,0.995743,0.003100,0,0,blocked
+vm-012,Ubuntu,24.04,pass,pass,pass,pass,pass,0,0.982392,0.007000,0,0,insufficient_evidence
+vm-013,Windows Server,2025,pass,pass,pass,pass,pass,1,0.933185,0.009600,0,1,compliant
+vm-014,Amazon Linux,2023,pass,pass,pass,pass,pass,0,1.124708,0.009500,0,1,compliant
+vm-015,Windows Server,2025,pass,pass,pass,pass,pass,1,1.048620,0.005700,0,0,ready
+vm-016,Windows 11,24H2,fail,pass,pass,pass,pass,1,1.004263,0.007400,1,0,blocked
+vm-017,Windows Server,2019,pass,unknown,pass,pass,pass,1,1.094154,0.008300,0,1,compliant
+vm-018,RHEL,9.4,pass,pass,pass,fail,pass,1,0.944923,0.001400,0,0,ready_with_caution
+vm-019,Amazon Linux,2023,unknown,pass,unknown,pass,pass,1,0.999613,0.011700,0,0,insufficient_evidence
+vm-020,Windows 11,24H2,fail,pass,pass,pass,pass,1,2.018747,0.078000,1,1,compliant
+vm-021,Windows 11,24H2,fail,pass,pass,pass,pass,1,1.034521,0.011700,1,0,blocked
+vm-022,Amazon Linux,2023,pass,pass,pass,pass,pass,1,0.947086,0.009200,0,0,ready
+vm-023,Amazon Linux,2023,pass,pass,pass,pass,pass,1,2.037227,0.051600,0,0,blocked
+vm-024,Ubuntu,22.04,pass,pass,pass,pass,pass,1,1.129363,0.004800,0,0,ready
+vm-025,Amazon Linux,2023,pass,fail,pass,pass,pass,1,0.955432,0.008600,0,0,blocked
+vm-026,Windows 11,24H2,pass,pass,pass,pass,pass,1,0.966667,0.004600,1,0,blocked
+vm-027,Ubuntu,22.04,pass,unknown,fail,pass,fail,0,0.952327,0.004900,0,0,blocked
+vm-028,RHEL,8.10,pass,pass,pass,pass,pass,1,1.065244,0.011400,0,0,ready
+vm-029,RHEL,8.10,pass,pass,pass,pass,pass,1,1.041762,0.008800,0,1,compliant
+vm-030,Windows Server,2025,fail,pass,pass,pass,pass,1,1.109646,0.001400,0,0,blocked
+vm-031,Ubuntu,24.04,pass,pass,pass,pass,pass,1,1.033039,0.010400,0,0,ready
+vm-032,Windows 11,24H2,unknown,fail,pass,pass,pass,1,0.995951,0.002200,1,0,blocked
+vm-033,macOS,14,pass,pass,pass,pass,pass,1,1.054044,0.006900,0,0,ready
+vm-034,Amazon Linux,2023,pass,pass,pass,unknown,pass,1,1.072970,0.009300,0,0,ready_with_caution
+vm-035,Windows 11,24H2,pass,fail,pass,pass,pass,1,1.110991,0.008700,1,1,compliant
+vm-036,Amazon Linux,2023,pass,pass,unknown,pass,pass,1,1.005858,0.010400,0,0,insufficient_evidence
+vm-037,RHEL,8.10,pass,pass,pass,pass,pass,1,1.137110,0.011800,0,0,ready
+vm-038,Windows 11,24H2,fail,pass,pass,pass,pass,1,1.014279,0.007700,1,0,blocked
+vm-039,ICS/Embedded,RTOS 4.2,pass,pass,fail,pass,pass,1,2.175192,0.055400,0,0,blocked
+vm-040,Ubuntu,22.04,pass,pass,pass,pass,fail,1,1.050469,0.002300,0,0,ready_with_caution
+vm-041,Windows 11,24H2,fail,pass,pass,pass,pass,1,1.018930,0.005200,1,0,blocked
+vm-042,Ubuntu,22.04,pass,pass,pass,pass,pass,1,0.930465,0.005100,0,0,ready
+vm-043,Amazon Linux,2023,pass,pass,pass,pass,pass,1,0.909260,0.008800,0,1,compliant
+vm-044,Windows Server,2025,unknown,unknown,fail,unknown,pass,0,1.782050,0.064300,0,0,blocked
+vm-045,Windows 11,23H2,pass,pass,pass,pass,pass,1,2.072581,0.060000,0,0,blocked
+vm-046,Ubuntu,24.04,pass,pass,pass,pass,pass,1,1.094871,0.010100,0,0,ready
+vm-047,Ubuntu,22.04,pass,pass,pass,pass,pass,1,0.905566,0.003800,0,0,ready
+vm-048,RHEL,8.10,pass,unknown,pass,pass,pass,0,0.939852,0.011500,0,1,compliant
+vm-049,Windows 11,24H2,unknown,pass,pass,pass,pass,1,1.103077,0.010300,1,0,blocked
+vm-050,Windows 11,24H2,pass,pass,pass,pass,pass,1,1.000845,0.010500,1,1,compliant
+vm-051,Windows 11,24H2,pass,unknown,pass,pass,pass,1,0.909295,0.007800,1,0,blocked
+vm-052,ICS/Embedded,HMI 7.1,pass,pass,pass,pass,pass,1,1.033722,0.010100,0,0,needs_approval
+vm-053,Windows 11,24H2,pass,pass,pass,pass,pass,1,0.988781,0.009200,1,0,blocked
+vm-054,Ubuntu,22.04,pass,unknown,pass,pass,pass,1,1.120377,0.002100,0,1,compliant
+vm-055,Windows 11,23H2,pass,pass,pass,pass,pass,1,0.986717,0.002600,0,1,compliant
+vm-056,ICS/Embedded,RTOS 4.2,pass,pass,pass,pass,pass,1,1.862722,0.063800,0,0,blocked
+vm-057,Windows Server,2019,pass,pass,pass,pass,pass,1,0.920716,0.009500,0,0,ready
+vm-058,Amazon Linux,2023,pass,pass,pass,pass,pass,1,1.081612,0.005900,0,0,ready
+vm-059,RHEL,8.10,pass,unknown,pass,pass,pass,1,0.994129,0.002200,0,0,insufficient_evidence
+vm-060,Windows 11,24H2,pass,pass,pass,pass,pass,1,2.337793,0.059300,1,0,blocked
+vm-061,Windows 11,24H2,pass,pass,pass,pass,pass,1,1.034387,0.008000,1,0,blocked
+vm-062,ICS/Embedded,RTOS 4.2,pass,pass,pass,pass,pass,1,1.002542,0.005100,0,0,needs_approval
+vm-063,Windows Server,2025,pass,pass,pass,pass,pass,1,0.971782,0.009600,0,0,ready
+vm-064,RHEL,8.10,pass,fail,pass,pass,pass,1,0.902401,0.007300,0,0,blocked
+vm-065,Ubuntu,22.04,pass,pass,pass,pass,pass,1,1.046885,0.006200,0,0,ready
+vm-066,RHEL,8.10,pass,pass,pass,pass,pass,1,1.974947,0.047100,0,0,blocked
+vm-067,Windows Server,2025,pass,unknown,pass,pass,pass,1,1.119097,0.008200,0,0,insufficient_evidence
+vm-068,macOS,14,pass,pass,pass,pass,pass,1,1.134294,0.006400,0,0,ready
+vm-069,ICS/Embedded,HMI 7.1,pass,fail,pass,pass,pass,1,1.017570,0.010500,0,0,blocked
+vm-070,Windows 11,23H2,unknown,pass,pass,pass,pass,1,0.997960,0.009800,0,0,insufficient_evidence
+vm-071,Amazon Linux,2023,pass,pass,pass,pass,pass,1,1.076105,0.006400,0,0,ready
+vm-072,macOS,15,pass,pass,pass,pass,pass,1,1.013699,0.011400,0,0,ready
+vm-073,Windows Server,2022,pass,pass,pass,pass,pass,1,1.076394,0.006700,0,0,ready
+vm-074,Windows 11,24H2,pass,pass,pass,pass,pass,1,1.092055,0.002400,1,0,blocked
+vm-075,Windows 11,23H2,fail,unknown,pass,pass,pass,1,1.716312,0.077500,0,0,blocked
+vm-076,Windows 11,23H2,pass,pass,pass,pass,pass,1,1.141710,0.005400,0,0,ready
+vm-077,Windows Server,2019,pass,pass,pass,pass,pass,1,1.010667,0.002000,0,0,ready
+vm-078,Windows 11,23H2,pass,pass,pass,pass,pass,1,1.116351,0.009700,0,0,ready
+vm-079,macOS,14,pass,pass,pass,pass,pass,1,1.103340,0.010500,0,0,ready
+vm-080,RHEL,9.4,pass,pass,unknown,pass,pass,1,1.109717,0.002600,0,0,insufficient_evidence
+vm-081,Windows Server,2022,pass,pass,pass,pass,pass,1,1.102015,0.006700,0,0,ready
+vm-082,Windows Server,2025,pass,pass,pass,pass,pass,1,0.906312,0.010700,0,0,ready
+vm-083,ICS/Embedded,RTOS 4.2,pass,pass,pass,pass,pass,1,0.958032,0.007900,0,0,needs_approval
+vm-084,Amazon Linux,2023,pass,fail,pass,pass,pass,1,1.000699,0.002200,0,0,blocked
+vm-085,Windows Server,2019,pass,pass,fail,pass,pass,1,1.117757,0.010500,0,0,blocked
+vm-086,Amazon Linux,2023,pass,pass,pass,pass,pass,1,1.090670,0.010500,0,1,compliant
+vm-087,Windows Server,2025,pass,pass,pass,pass,pass,1,1.859133,0.035100,0,1,compliant
+vm-088,Windows Server,2025,pass,pass,pass,pass,pass,1,1.147673,0.005400,0,0,ready
+vm-089,macOS,14,pass,pass,pass,pass,pass,1,1.016160,0.005400,0,0,ready
+vm-090,Windows 11,24H2,pass,pass,pass,pass,pass,0,1.057183,0.006400,1,0,blocked
+vm-091,ICS/Embedded,HMI 7.1,pass,pass,pass,pass,pass,1,2.071728,0.050200,0,0,blocked
+vm-092,macOS,14,pass,pass,fail,pass,pass,1,1.101939,0.001500,0,0,blocked
+vm-093,macOS,14,pass,pass,pass,fail,pass,1,0.914710,0.007200,0,0,ready_with_caution
+vm-094,Amazon Linux,2023,pass,pass,pass,unknown,pass,1,2.400572,0.058300,0,1,compliant
+vm-095,Amazon Linux,2023,pass,unknown,pass,pass,fail,1,1.147340,0.006700,0,0,insufficient_evidence
+vm-096,Windows 11,23H2,unknown,pass,pass,pass,pass,1,1.011976,0.002700,0,0,insufficient_evidence
+vm-097,ICS/Embedded,HMI 7.1,pass,pass,pass,pass,pass,1,1.099382,0.003400,0,0,needs_approval
+vm-098,RHEL,8.10,pass,pass,pass,pass,pass,1,0.906992,0.011600,0,0,ready
+vm-099,Windows Server,2022,pass,pass,pass,pass,pass,1,1.115091,0.001400,0,0,ready
+vm-100,Windows Server,2022,pass,fail,pass,pass,pass,1,1.129452,0.001300,0,0,blocked
+vm-101,Windows Server,2019,pass,pass,pass,pass,pass,1,1.016176,0.009000,0,0,ready
+vm-102,Ubuntu,22.04,unknown,pass,pass,fail,pass,1,0.925401,0.004900,0,0,insufficient_evidence
+vm-103,Amazon Linux,2023,pass,pass,pass,pass,pass,1,1.060259,0.007900,0,0,ready
+vm-104,Windows Server,2022,pass,pass,pass,pass,pass,1,0.981696,0.011400,0,0,ready
+vm-105,Windows 11,24H2,pass,pass,pass,pass,pass,1,1.033545,0.004600,1,0,blocked
+vm-106,Windows 11,23H2,pass,pass,pass,pass,pass,1,1.054907,0.008200,0,0,ready
+vm-107,Windows Server,2022,pass,pass,pass,pass,pass,1,0.917936,0.001100,0,0,ready
+vm-108,Windows Server,2019,pass,pass,pass,pass,fail,1,1.113716,0.005000,0,0,ready_with_caution
+vm-109,Ubuntu,24.04,pass,unknown,pass,pass,pass,1,1.144626,0.011300,0,0,insufficient_evidence
+vm-110,macOS,14,pass,pass,pass,pass,pass,1,1.027599,0.007300,0,0,ready
+vm-111,Ubuntu,24.04,pass,pass,unknown,pass,pass,1,1.066165,0.008500,0,0,insufficient_evidence
+vm-112,Amazon Linux,2023,pass,pass,pass,pass,pass,1,1.001795,0.004100,0,1,compliant
+vm-113,macOS,14,pass,pass,pass,pass,pass,1,0.975295,0.006200,0,0,ready
+vm-114,Ubuntu,22.04,pass,fail,pass,pass,pass,1,0.929603,0.007300,0,0,blocked
+vm-115,Amazon Linux,2023,pass,pass,pass,pass,pass,1,1.124379,0.010800,0,0,ready
+vm-116,macOS,14,pass,pass,pass,pass,pass,1,1.138900,0.010100,0,0,ready
+vm-117,Windows 11,23H2,pass,pass,pass,pass,pass,1,0.995637,0.002900,0,0,ready
+vm-118,Windows Server,2025,fail,pass,pass,pass,pass,1,1.056220,0.012000,0,0,blocked
+vm-119,Windows Server,2019,pass,pass,pass,pass,pass,1,1.104626,0.006600,0,0,ready
+vm-120,macOS,15,pass,pass,pass,pass,pass,1,0.942155,0.005400,0,1,compliant
